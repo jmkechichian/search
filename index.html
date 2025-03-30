@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-    </head>
-    <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="#">Images</a>
+        <a href="#">Advance Search</a>
+    </nav>
+
+    <main class="main">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo">
+        
+        <form action="https://google.com/search" class="search-form">
+            <div class="search-box">
+                <input type="text" name="q" class="search-input" id="searchInput">
+                <input type="submit" value="Google Search" class="search-button" >
+            </div>
+           
         </form>
-    </body>
+    </main>
+</body>
 </html>
