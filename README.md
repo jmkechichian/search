@@ -14,4 +14,5 @@ This is my solution for Problem 0 of Harvard University's CS50 Web Programming w
   4-Double-click the index.html file to open it in your web browser
 
   No installation or server required - it works directly in your browser!
+  
   Note: Keep all files in their original folder structure for proper styling.
