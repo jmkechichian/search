@@ -5,13 +5,13 @@ This is my solution for Problem 0 of Harvard University's CS50 Web Programming w
 
   <h2>How to Test the Code</h2>
     
-  1-Download the repository files (usually in a .zip or .rar archive)
+    1-Download the repository files (usually in a .zip or .rar archive)
 
-  2-Extract the files using WinRAR or any extraction tool
+    2-Extract the files using WinRAR or any extraction tool
 
-  3-Open the extracted folder
+    3-Open the extracted folder
 
-  4-Double-click the index.html file to open it in your web browser
+    4-Double-click the index.html file to open it in your web browser
 
   No installation or server required - it works directly in your browser!
   
