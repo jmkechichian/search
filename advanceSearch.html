@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Búsqueda Avanzada - Clon Google</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <a href="searchImages.html">Images Search</a>
+        <a href="index.html">Google Search</a>
+    </nav>
+    <div class="container">
+        <h1>Advance Search</h1>
+        <div class="separator"></div>
+        
+        <form action="https://www.google.com/search" method="GET">
+            <div class="search-section">
+                <div class="left-col">All these words:</div>
+                <div class="right-col">
+                    <input type="text" name="as_q" id="textInput">
+                    <div class="instructions">Write the important words: Graphic terrors mouse</div>
+                </div>
+            </div>
+            
+            <div class="search-section">
+                <div class="left-col">This exact word or phrase:</div>
+                <div class="right-col">
+                    <input type="text" name="as_epq" id="textInput">
+                    <div class="instructions">Write the exact phrase in quotation marks: "graphic horror"</div>
+                </div>
+            </div>
+            
+            <div class="search-section">
+                <div class="left-col">Any of these words:</div>
+                <div class="right-col">
+                    <input type="text" name="as_oq" id="textInput">
+                    <div class="instructions">Write OR between the words you want: miniature OR standard</div>
+                </div>
+            </div>
+            
+            <div class="search-section">
+                <div class="left-col">None of these words:</div>
+                <div class="right-col">
+                    <input type="text" name="as_eq" id="textInput">
+                    <div class="instructions">Write words you don't want: rodent "Jack Russell"</div>
+                </div>
+            </div>
+            
+            <div class="search-section">
+                <div class="left-col">Numbers of:</div>
+                <div class="right-col">
+                    <input type="text" style="width: 100px;" name="as_nlo" id="textInput">
+                    <span>a</span>
+                    <input type="text" style="width: 100px;" name="as_nhi" id="textInput">
+                    <div class="example">Example: 50..100</div>
+                </div>
+            </div>
+            
+            <div class="separator"></div>
+            <input type="submit" value="Advance Search" id="textSubmit">
+        </form>
+    </div>
+</body>
+</html>

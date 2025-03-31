@@ -1,4 +1,3 @@
-# search
-This is my solution for Problem 0 of the CS50's Web Programming with Python and JavaScript course by Harvard
+#Google Search Clone
 
-The problem is creating a Google clone that works, in which performing a query on the platform displays the search results.
+This is my solution for Problem 0 of Harvard University's CS50 Web Programming with Python and JavaScript course. The project involves developing a functional Google clone where executing a search query successfully returns and displays relevant results, emulating the core functionality of the original search engine.
